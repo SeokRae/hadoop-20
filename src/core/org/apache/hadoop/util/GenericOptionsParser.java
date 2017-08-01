@@ -113,7 +113,7 @@ public class GenericOptionsParser {
    * @param args the command line arguments
    */
   public GenericOptionsParser(Options opts, String[] args) {
-    this(new Configuration(), new Options(), args);
+    this(new Configuration(), opts, args);
   }
 
   /**
